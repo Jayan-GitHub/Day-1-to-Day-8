@@ -1,0 +1,1043 @@
+VS-Code [HTML-Syntax]
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAYAN</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+
+    <header>The King</header>
+    <footer>The end</footer>
+    
+    <h1>JAYAN</h1>
+    <h2>JAYAN</h2>
+    <h3>JAYAN</h3>
+
+    <div> vjhuih</div>
+
+    
+    <p1>The oldest classical British and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions). Over time, text direction (left to right) became standardized, and word dividers and terminal punctuation became common. The first way to divide sentences into groups was the original paragraphos, similar to an underscore at the beginning of the new group.[1] The Greek parágraphos evolved into the pilcrow (¶), which in English manuscripts in the Middle Ages can be seen inserted inline between sentences. The hedera leaf (e.g. ☙) has also been used in the same way....</p>
+    <p2>The oldest classical British and Latin writing had little or no space between words and could be written in boustrophedon (alternating directions). Over time, text direction (left to right) became standardized, and word dividers and terminal punctuation became common. The first way to divide sentences into groups was the original paragraphos, similar to an underscore at the beginning of the new group.[1] The Greek parágraphos evolved into the pilcrow (¶), which in English manuscripts in the Middle Ages can be seen inserted inline between sentences. The hedera leaf (e.g. ☙) has also been used in the same way..</p2>
+</body>
+</html>
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+GUVI-IDE [SYNTAX]
+
+const readline = require('readline');
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput = [];
+inp.on("line", (data) => {
+ userInput.push(data);
+});
+inp.on("close", () => {
+  
+// var a=+userInput[0];
+// var b=+userInput[1];
+// console.log(a);
+// console.log(b);
+
+
+// var i;
+// for (i=1;i<=10;i++){
+// console.log(2*i);
+
+
+// var a=userInput*5;
+// for (i=1;i<=10;i++){
+// console.log(a*2);
+// }
+
+
+
+// Day 3 :
+
+
+
+// var a= (50+50+50)+"guvi"+(10+20+30);
+// console.log(typeof(a));
+
+
+// concartant :
+// var a="guvi";
+// var b="geek";
+// console.log(a+b);
+
+
+// string to number (or) [array to number also] :
+// var a=userInput[0].split("").map(Number);
+// var b=userInput[1];
+// console.log(a);
+// console.log(b);
+
+
+// var a=20
+// var b=2
+// console.log(a*b)
+
+
+// For Loop :
+// var a=userInput[0]+userInput[1]+userInput[2]+userInput[3].split("");
+// for (var i=0;i<a.length;i++){
+//     console.log(a[i]);
+// }
+
+
+// Splice method : [Replace and Insert] :  Dought*
+// var arr=['Jan','march','april','June'];
+// arr.splice(3,3,"Feb");
+// console.log(arr);
+
+
+// Objects : Total [2 methods] :
+// Method [Dot] : 1 
+// var obj={
+//     name:"jayan",
+//     age:24,
+//     DOB:1998,
+    
+// };
+// console.log(obj.DOB);
+
+// Method [Box] : 2
+// var obj={
+//     name:"jayan",
+//     age:24,
+//     DOB:1998,
+    
+// };
+// console.log(obj["age"]);
+
+// How to add Obj :
+// var obj={
+//     // name:"jayan",
+//     // age:24,
+//     // DOB:1998,
+    
+// };
+// add type :
+// obj.email="jai@gmail.com"
+// obj.phone=9874563211
+// obj.id=545665451
+
+// add and category type :
+// obj.category={gender:"male"}
+// obj.category={language:"English,Tamil"}
+// console.log(obj.category.language);
+
+
+// For in Loop
+
+// continueeee in day 3 laa 2:15:00 too start here....
+
+
+});
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Day-4
+
+notes:
+functions:
+
+functions group of statements
+
+why functions?
+
+functions makes the code reusable .
+we can declare it once and use it multiple times .
+functions makes the program easier as each small task is divide into sa functions.
+incresases readability.
+
+types of javascript functions:
+
+named or normal functions.
+Anonymous functions..
+IIFE functions
+Arrow functions
+
+named function:
+syntax: function functionname(parameters){return} functionname(arguments) or console.log(functionname())
+
+return keyword:
+it means the program gets stopped
+we cant use return keyword outside the function.
+
+Anonymous function:we sholud declare the function inside a variable name .
+syntax: variable variablename = function (){return()}
+
+IIFE:
+immediately invoked function expression.
+no return keyword.
+less consumption of memory.
+syntax: (function (){no return}) ();
+we use this rarely.
+here function name is optional.
+
+Arrow function:
+ES6 = ecmascript6(latest version)
+syntax: variable variablename = () => {};
+we can or we wont
+code redundancy
+
+script:
+//named function without parameters:
+
+// function day() {
+//     return ("hello world!")
+// }
+// //day(); // method to call a function
+// console.log(day());
+
+//  console.log("guvi")
+
+//named function with parameters:
+ 
+// function add(a,b,c) {
+//     // console.log("print");
+//     return ((a+b)*(c-b));
+   
+// }
+// console.log(add(3,4,5));
+
+// add(30,40);
+
+// function math(a,b,c,d){
+//     return((a+b)-(c+d));
+// }
+// console.log(math(6,7,2,3));
+
+// function  mul(a,b,c,d){
+//     return (a*b*c*d);
+
+// }
+// console.log(mul(3,5,5,4));
+
+// function mul(a,b,c,d)
+// {
+// return(a*b*c*d);
+
+// }
+// console.log(mul(2,3,4,5))
+
+//Anonymous function:
+
+// var num = function (a,b,c) {
+    
+//         return ((a+b)*(c-b));
+       
+//     }
+//     console.log(num(30,14,5));
+
+//IIFE function:'
+
+// (function area (r){
+//     // return "hello"
+//     console.log(3.14*r*r);
+// })
+// (5);
+    
+// (function calculate (r,s,d){
+//     //     // return "hello"
+//         console.log(r+s-d);
+//     })
+// (67,80,10);
+        
+// var res = (a,b) => {
+//     return (a+b);
+// }
+// console.log(res(2,3));
+
+// var result = () => "hello B38 students";
+// console.log(result());
+
+//find the average of the marks of 5 students?
+//u can use the array as an argument
+
+var marks = [40, 50, 0, 25, 10];
+
+// let sum = 0;
+
+// for (let mark of marks) {
+//     sum = sum + mark;
+// }
+//  let avg = sum / marks.length;
+
+//  console.log(avg);
+
+var getAverage = function (marks) {
+
+    let sum = 0;
+
+for (let mark of marks) {
+    sum = sum + mark;
+}
+ let avg = sum / marks.length;
+
+return avg;
+}
+console.log(getAverage([40, 50, 0, 25, 10]));
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Day-5
+
+//Hositing and Scope
+//ES6  features
+//Spread operator and Rest paramater
+//problems on functions
+ 
+ console.log(name);
+ var name;
+
+//hositing:tyring to access the variable before the declaration
+//ECMA let and const
+//to overcome hoisitng features
+//let  and const is a block scope
+//var is a global scope and functional scope
+
+console.log(num);
+let num=23;
+
+const number=3.1413;
+number=3.1413;
+console.log(number);
+//block Scope
+if(5>4){
+{
+{
+ let a=23;
+ console.log(a); 
+}
+console.log(a);
+}
+}
+
+function foo(){
+var res="guvi";
+console.log(res);
+}
+console.log(foo());
+console.log(res);
+
+if a variable is declared with var inside the function it will not exhibit gloabl scope
+
+//question 01
+1.Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array.
+
+Input:(foo([7, 9, 0, -2]))
+output:7
+
+Input:(foo([0,6,4,5]))
+output:0
+
+Input:(foo([1,2,3,4],-3))
+Output:[];
+
+Input:(foo([1,2,3,4],3))
+Output:[1,2,3]
+
+Input:(foo([1,2,3,4],5))
+Output:[1,2,3,4]
+
+
+function foo(arr,n){
+if(n===undefined)
+{
+  return arr[0];
+}
+if(n<0){
+return [];
+}
+
+return arr.slice(0,n);
+
+}
+console.log(foo([0,6,4,5],5));
+
+//expanding the arrays:we can use the spread operator
+//to unpack the array elements
+// var arr=["ab","cd","ef"];
+// console.log(arr);
+//String to character array:
+let str="1234";
+console.log(...str);
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Day-6
+
+//Classes and Objects
+//this keywords
+//small structure
+//code
+
+//OOP:encapsulation,polymorphism,inheritance
+//Class:it is the template which consist of collections of properties,methods.Objects..etc/
+//Object :it is a real time entity
+//How to write a class??
+//How to write a class??
+// class Classname{
+// }
+
+//class for car
+class Car{
+ constructor(name,color){
+    this.name=name;
+    this.color=color;
+ }
+ //method name here we call it as method not functions
+ retname(){
+ return "you have"+this.color+"car";
+ }
+}
+
+//to create an Object based on the above
+//Syntax:var variablename=new Objectname();
+var c1=new Car("BMW","blue");
+
+//new is a keyword which is used in OOP
+//this helps us to create the objects freshly
+
+//constructor :it is the special way of assigning values to objects
+//this :is the keyword which is used to point the freshly created objects
+//it is temporary
+
+//an object can have multiple references....
+
+//to call a method  in classes and objects
+//syntax:refname.methodname()
+
+console.log(c1.retname());
+
+
+
+
+//class for car
+class Car{
+ constructor(name,color){
+    this.name=name;
+    this.color=color;
+ }
+ 
+ retname(){
+ return "you have"+this.name+"car";
+ }
+}
+
+
+var c1=new Car("santro","white");
+
+
+console.log(c1.retname());
+
+
+
+
+Note: For concepts such as OOPS as well MRF  we have split the below task for two consecutive days. For the OOPS  you can submit the OOPS task, For the Array Methods, you can submit on the MRF task submission field.
+
+Day 06 :OOPS TASK 
+
+
+
+https://github.com/rvsp/typescript-oops/blob/master/Practice/Movie.md
+https://github.com/rvsp/typescript-oops/blob/master/Practice/class-circle.md
+Write a “person” class to hold all the details.
+write a class to calculate the uber price.
+
+
+
+Day 07:ARRAY METHODS
+
+
+Solving problems using array functions on the rest countries' data.
+Get all the countries from the Asia continent /region using the Filter function
+Get all the countries with a population of less than 2 lakhs using Filter function
+Print the following details name, capital, flag using forEach function
+Print the total population of countries using reduce function
+Print the country which uses US Dollars as currency.
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Day-7 [Not Watch a video]
+
+//MRF
+//Map ,reduce and Filter
+//Module wise Assessment
+//Assessment will be updated after the completeion of  every Module
+
+//map 
+//var arr=[12,13,14,15];original array
+//var res=[24,26,28,30];resulatant array
+
+//step 01:for loop
+//step 02:arr[i]*2 
+//stem 03:declare an empty array and push 
+//step 04:print the res array
+
+//map method
+//it will take the function as a parameter
+//it is applicable only for arrays
+//it will be applied to each and every element of the array
+//it will return the new array
+//Syntax:arr.map(functionname);
+
+//map method
+var arr=[12,13,14,15];
+var res=arr.map((ele)=>ele*2);
+console.log(res);
+
+
+1.For the array var arr=[{name:"john",marks:23},{name:"alice",marks:24}]; increase the marks 
+of the each student by 10 by using map method.
+var arr=[{name:"john",marks:23},{name:"alice",marks:24}];
+var res=arr.map((ele)=>ele.marks+10);
+console.log(res);
+
+//var arr=[12,13,14,15];original array
+//var res=[12,14];resulatant array only even numbers inside the array
+//var newarray=[];
+//step01:for loop 
+//ste p02:if condition arr[i]%2 ===0
+//step03:it will be pushed to new array only if it even 
+//,if not move for next element
+//step 04:print the new array
+
+
+//filter
+//filter takes the function as a parameter
+//it is applicable to the arrays
+//it eill be applied on each and every element of the array
+//if a certain condition in the function is passed, then it will be pushed
+//or it will be ignored
+//it also returns the array
+
+var arr=[12,13,14,15];
+var res=arr.filter((ele)=>ele%3===0);
+console.log(res);
+
+2.For the array var arr=[{name:"john",marks:23},{name:"alice",marks:24},{name:"bob",marks:32}]; 
+display the names of students whose marks is greater than 23.
+Output:["alice","bob"];
+
+
+var arr=[{name:"john",marks:23},{name:"alice",marks:24},{name:"bob",marks:32}];
+var res=arr.filter((ele)=>ele.marks>23);
+console.log(res);
+var result=res.map((ele)=>ele.name);
+console.log(result);
+
+
+//reduce funtion takes the function as the parameter,
+//spply function on each and every element of the array
+//it will take the sum of whole array
+//it will return a single element
+//1st case :when no inital values are given
+//acc:accumulator:it refers initial value
+//ele:element :it refers to element of array
+//it will accept the first element of the array as acc value 
+var arr=[12,13,14,15];
+// var res=arr.reduce((acc,ele)=>acc+ele);
+// console.log(res);
+// 2nd  case :when  inital values are given 0
+// it will store 0 as the acc value 
+var res=arr.reduce((acc,ele)=>acc+ele,0);
+console.log(res);
+
+var request=new XMLHttpRequest();
+request.open("GET","https://raw.githubusercontent.com/rvsp/restcountries-json-data/master/res-countries.json");
+request.send();
+request.onload=function(){
+    var result=JSON.parse(request.response);
+    console.log(result);
+//you have to extract the counties details whose population is less than 1lAKH
+  //SO USE FILTER HERE
+  var res=result.filter((ele)=>ele.population<100000).map((ele)=>ele.name);
+  console.log(res);
+  //print the all the countries which belongs to Asia region
+  
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+Day-8 [HTML and CSS]
+  
+Module 02:
+HTML,CSS 
+basics of tags..till bootstrap
+all the tags must be closed...
+Self closing tags: we don't  need to close
+
+Element:combination of tag+content
+p tag: stands for paragraph
+we have to close the tag
+this is p:content
+
+Element ex:<p>this is p</p>
+
+a tag or anchor tag:
+it establishes connecttion between one doc to another
+href:it is called as attribute. it gives the additional information about tag
+it also contains the link on where to get redirected
+target:helps us to open the document on new tab / same tab
+<a href="https://www.guvi.in">Click me</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+   <style>
+    table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    }
+   </style>
+</head>
+<body>
+
+<table>
+    <thead>
+    <th>Name</th>
+    <th>age</th>
+    </thead>
+    <tbody>
+     <tr>
+        <td>john</td>
+        <td>23</td>
+     </tr>
+     <tr>
+        <td>doe</td>
+        <td>24</td>
+     </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+
+HTML-Forms:to collect the data  from  the user 
+form tag is used to create the HTML form elements
+the for attribute of the label tag must be same as the id of the input type
+reason:to hold tightly bounded
+
+Name attribute helps us to store the value whatever we entered in the text field..
+<form>
+   <label for="email">Email</label><br>
+   <input type="email" name="" id="email" ><br>
+   <label for="pass">Password</label><br>
+   <input type="password" name="" id="pass"><br>
+   <input type="reset" value="reset">
+   
+</form>
+
+q.1:Create an HTML Form which consist of following details
+1:firstname
+2:middlename
+3:lastname
+4:email
+5:upload a file
+***************************************************************************************************
+//div,section,article differences...
+//CSS intro to css
+//display inline as well block level elements
+//div : it was introduced in the HTML4
+//div:represents the division / or a portion of document
+
+//section: represents the one portion or a section of document
+//holds similar category of elements 
+//section vs div
+
+//CSS:cascaded style sheet
+//3 different types
+//1.inline css
+//2.internal css
+//3.external css
+
+//inline css:it is applied to the specific  element
+//it is done using style tag
+//property:value
+//below structure represents inline
+//<div style=""></div>
+
+//internal css:
+Selectors:helps us to have styling on the specific elements/group of elements
+class,id,tag,pseudo selectors
+class,id, tag 
+differences
+<style>
+</style>
+
+class selectors:
+//it is applicable to more than one elements
+//class selectors are represented in : .classname{
+
+}
+
+//can i apply 2 class selector on a single element??
+//yes
+
+
+
+//priority wise for css
+inline>internal>external
+
+
+//can i apply inline as well as internal to same element?
+//yes 
+//then inline will have that priority 
+
+
+//id selector:
+//it is applicable to only element 
+//syntax: #idname{
+
+}
+
+//again the priorities based on selectors
+//order of priority
+id>class
+
+usage of important key word
+
+
+//block level vs inline
+
+block level:they always start on the new line
+ex:div
+inline level:they always start on the same line
+ex:span
+
+can i convert block level to inline as well as inline to block?
+yes
+
+By using display properties:
+div: default block
+span:iniline
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    <style>
+    div{
+        background-color: green;
+        display: inline;
+    }
+    span{
+        background-color:orange;
+        /* display: block; */
+    }
+  
+    </style>
+
+</head>
+<body>
+<!-- <div>this is div</div>
+<div style="background-color: orange;">this is div</div>
+<div>this is div</div> -->
+
+<span>this is span</span>
+<span style="display: block;">this is span</span>
+</body>
+</html>
+
+***********************************************************************************************
+//Box model
+//Position Properties 
+
+//Box model:it is like a wrapper that will be  wrapped around every html element
+1.margin
+2.border
+3.padding
+
+
+margin: it is an imaginary line that will be around an every html element
+margins are measureed in px
+margins has 4 sides
+
+margin-top:2px;
+margin-right:2px;
+margin-bottom:2px;
+margin-left:2px;
+
+instead of writing above,we can mention  in a single line
+
+all the values are in the clokwise direction
+top,right,bottom,left
+
+
+Border:is a visible line
+border property also do have  the short hand notation
+which consist of width,style,color
+mentioning all the above under a same line is called as shorthand notation.
+
+
+Padding:it is an imaginary line around an HTML content
+again what ever properties that are applied for margin same will be applicable
+
+for margin we have default values for div,p...
+for padding we don't have 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{
+        border: 2px solid red;
+        margin: 5px;
+        padding-left: 550px;
+        background-color: green;
+       }
+    </style>
+</head>
+<body>
+ <div>this is div</div>
+</body>
+</html>
+https://gist.github.com/MohanCloud-stack/157b982fb390fb147a6da01b45949d78
+
+//relative
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .parent{
+    background-color: green;
+  }
+  .child1{
+    background-color: orange;
+    top:10px;
+    left: 5px;
+    position: relative;
+  }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="child1">this is child1</div>
+</div>
+</body>
+</html>
+*************************************************************************
+Gradients:it helps us to   have the transitions
+linear and Radial Gradients
+
+background-image:lineargradient(direction/angle,start,ending,);
+linear Gradients will have the default flow of top to bottom
+radial graidents will have the  circle inside the box
+
+Overflow:
+if you want to clip off  a extra content in your document
+then use with overflow property
+
+1.visible: this is  the default property...
+2.hidden:helps to clip of the exta content
+3.scroll
+4.auto
+
+
+Media queries:
+it is called as RWD:
+responsive web design
+based upon the device type how website is adjusting
+syntax:@media screen and (max-width:500px){
+    //css properties
+}
+
+
+flex:
+Parent and Child relationship
+  <link rel="stylesheet" href="index.css">
+  rel stands for the relationship between document
+  href stands for the link(filename)
+flex-box: flexible box or layout
+we have different properties
+
+
+flex-direction:it defined which direction the container wants to arrange the elements
+flex-wrap:it helps os to know whether we have to wrap it or not
+
+
+align-content:based on the flex lines
+justify-content:based on the flex items
+
+CDN:content delivery network
+ 4 types
+ sm :small
+ md :medium
+ lg :large
+ xl :extra large
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-1"  style="background-color: green;">1</div>
+    <div class="col-1" style="background-color: blue;">2</div>
+    <div class="col-1" style="background-color: orange;">3</div>
+    <div class="col-1" style="background-color: yellow;">4</div>
+    <div class="col-1" style="background-color: olive;">5</div>
+    <div class="col-1" style="background-color: green;">6</div>
+    <div class="col-1" style="background-color: blue;">7</div>
+    <div class="col-1" style="background-color: orange;">8</div>
+    <div class="col-1" style="background-color: yellow;">9</div>
+    <div class="col-1" style="background-color: olive;">10</div>
+    <div class="col-1" style="background-color: green;">11</div>
+    <div class="col-1" style="background-color: blue;">12</div>
+  </div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+error of webkata
+
+https://gist.github.com/MohanCloud-stack/835d57544fe14285cce09777f91bf340
+
+---------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@----------------------------------
+  
+Day-8 [My Practice Stuff]
+
+HTML Forms: [How to Create Tables]
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Site</title>
+
+    <style>
+        table,th,td{
+        border:1px solid black;
+        border-collapse: collapse;
+        }
+    </style>
+
+</head>
+<body>
+<table>
+
+<thead>
+    <tr>
+    <th>Sl.NO</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Sex</th>
+    <th>Salary</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+    <td>001</td>
+    <th>Jayan</th>
+    <td>24</td>
+    <td>Male</td>
+    <td>500000</td>
+</tr>
+
+<tr>
+    <td>002</td>
+    <th>Shaji</th>
+    <td>25</td>
+    <td>female</td>
+    <td>400000</td>
+</tr>
+
+<tr>
+    <td>003</td>
+    <th>Arul</th>
+    <td>27</td>
+    <td>Male</td>
+    <td>800000</td>
+</tr>
+
+    <tr>
+    <td>004</td>
+    <th>Ram</th>
+    <td>25</td>                                                     
+    <td>Male</td>
+    <td>200000</td>
+</tr>
+
+    <tr>
+    <td>005</td>
+    <th>Mohan</th>
+    <td>30</td>
+    <td>Male</td>
+    <td>1000000</td>
+</tr>
+</tbody>
+
+    
+</table>   
+</body>
+</html>
+
+-----------------------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-------------------------------------------
+
+HTML Login Page:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Site</title>
+</head>
+<body>
+
+<form>
+
+<label for="Email">Email</label><br>
+<input type="Email" name="" id="Email" placeholder="Example : jayanmanavalan@gmail.com"><br>
+<br>
+<label for="Password">Password</label><br>
+<input type="Password" name="" id="Password"><br>
+<br>
+<input type="reset" value="Reset"><br>
+<br>
+<input type="button" value="Submit"><br>
+
+
+</form>
+    
+</body>
+</html>
+
